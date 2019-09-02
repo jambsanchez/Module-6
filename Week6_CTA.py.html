@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Week6_CTA.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #a9b7c6;}
+.s1 { color: #6a8759;}
+.s2 { color: #cc7832;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Week6_CTA.py</font>
+</center></td></tr></table>
+<pre><span class="s0">a = year = input(</span><span class="s1">'Year: '</span><span class="s0">)</span>
+<span class="s0">b = make = input(</span><span class="s1">'Make: '</span><span class="s0">)</span>
+<span class="s0">c = model = input(</span><span class="s1">'Model: '</span><span class="s0">)</span>
+<span class="s0">d = color = input(</span><span class="s1">'Color: '</span><span class="s0">)</span>
+<span class="s0">e = mileage = input(</span><span class="s1">'Mileage: '</span><span class="s0">)</span>
+
+
+<span class="s2">class </span><span class="s0">auto:</span>
+    <span class="s2">def </span><span class="s0">__init__(self</span><span class="s2">, </span><span class="s0">year</span><span class="s2">, </span><span class="s0">make</span><span class="s2">, </span><span class="s0">model</span><span class="s2">, </span><span class="s0">color</span><span class="s2">, </span><span class="s0">mileage):</span>
+        <span class="s0">print(year)</span>
+        <span class="s0">print(make)</span>
+        <span class="s0">print(model)</span>
+        <span class="s0">print(color)</span>
+        <span class="s0">print(mileage)</span>
+
+
+<span class="s0">print(a</span><span class="s2">, </span><span class="s0">b</span><span class="s2">, </span><span class="s0">c</span><span class="s2">, </span><span class="s0">d</span><span class="s2">, </span><span class="s0">e)</span>
+
+<span class="s0">add_feat = (input(</span><span class="s1">'Add a feature? '</span><span class="s0">))</span>
+
+<span class="s2">if </span><span class="s0">add_feat == (</span><span class="s1">'yes'</span><span class="s0">):</span>
+    <span class="s0">a = input(</span><span class="s1">'Year: '</span><span class="s0">)</span>
+    <span class="s0">b = input(</span><span class="s1">'Make: '</span><span class="s0">)</span>
+    <span class="s0">c = input(</span><span class="s1">'Model: '</span><span class="s0">)</span>
+    <span class="s0">d = input(</span><span class="s1">'Color: '</span><span class="s0">)</span>
+    <span class="s0">e = input(</span><span class="s1">'Mileage: '</span><span class="s0">)</span>
+    <span class="s0">print(a</span><span class="s2">, </span><span class="s0">b</span><span class="s2">, </span><span class="s0">c</span><span class="s2">, </span><span class="s0">d</span><span class="s2">, </span><span class="s0">e)</span>
+
+<span class="s0">restart = input(</span><span class="s1">'Add another vehicle? '</span><span class="s0">)</span>
+
+<span class="s2">if </span><span class="s0">add_feat == (</span><span class="s1">'no'</span><span class="s0">):</span>
+    <span class="s0">print(restart)</span>
+<span class="s2">if </span><span class="s0">restart == (</span><span class="s1">'yes'</span><span class="s0">):</span>
+    <span class="s0">print(a</span><span class="s2">, </span><span class="s0">b</span><span class="s2">, </span><span class="s0">c</span><span class="s2">, </span><span class="s0">d</span><span class="s2">, </span><span class="s0">e)</span>
+<span class="s2">if </span><span class="s0">restart == (</span><span class="s1">'no'</span><span class="s0">):</span>
+    <span class="s0">input(</span><span class="s1">'Press &lt;enter&gt; to Continue'</span><span class="s0">)</span>
+<span class="s2">else</span><span class="s0">:</span>
+    <span class="s0">a = input(</span><span class="s1">'Year: '</span><span class="s0">)</span>
+    <span class="s0">b = input(</span><span class="s1">'Make: '</span><span class="s0">)</span>
+    <span class="s0">c = input(</span><span class="s1">'Model: '</span><span class="s0">)</span>
+    <span class="s0">d = input(</span><span class="s1">'Color: '</span><span class="s0">)</span>
+    <span class="s0">e = input(</span><span class="s1">'Mileage: '</span><span class="s0">)</span>
+
+<span class="s0">print(a</span><span class="s2">, </span><span class="s0">b</span><span class="s2">, </span><span class="s0">c</span><span class="s2">, </span><span class="s0">d</span><span class="s2">, </span><span class="s0">e)</span>
+<span class="s0">input(</span><span class="s1">'Press &lt;enter&gt; to Exit'</span><span class="s0">)</span>
+</pre>
+</body>
+</html>
